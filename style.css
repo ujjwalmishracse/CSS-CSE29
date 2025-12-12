@@ -35,6 +35,7 @@
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(3,1fr);
   grid-template-areas: "header header header header" "main mian . sidebar" "footer footer footer footer";
+  justify-content: space-around;
 }
 
 .item{
@@ -46,7 +47,7 @@
     align-content: center;
 }
 
-.item1{
+/* .item1{
 grid-area: header;
 }
 
@@ -60,4 +61,10 @@ grid-area: header;
 
 .item4{
     grid-area: footer;
-} 
+}  */
+  .box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    
+  }
