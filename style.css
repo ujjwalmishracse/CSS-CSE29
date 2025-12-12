@@ -26,7 +26,7 @@
     flex-grow: 2;
     align-self: flex-end;
 } */
- .container{
+ /* .container{
     display: grid;
     height: 400px;
     width: 1000px;
@@ -36,7 +36,7 @@
     grid-template-rows: repeat(3,1fr);
   grid-template-areas: "header header header header" "main mian . sidebar" "footer footer footer footer";
   justify-content: space-around;
-}
+} */
 
 .item{
     /* height: 100px;
